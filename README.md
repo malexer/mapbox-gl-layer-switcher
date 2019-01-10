@@ -6,6 +6,8 @@ turn layers on/off with a smooth transition effect.
 ## Usage
 
 ```js
+import LayerSwitcher from 'mapbox-gl-layer-switcher';
+
 var switcher = new LayerSwitcher(layerId, map, 400);
 
 switcher.show();  // to show layer
